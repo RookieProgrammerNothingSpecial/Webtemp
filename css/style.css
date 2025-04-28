@@ -14,6 +14,7 @@ body{
     background-image:linear-gradient(to right,rgba(0,0,0,0.85),rgba(128,128,128,0.0)),url(../images/imagetest.jpg);
     background-blend-mode: multiply;
     background-size: cover;
+    padding-bottom: 170px;
     
 }
 .header #logo{
@@ -58,4 +59,122 @@ body{
     font-family: "Roboto", sans-serif;
     color: white;
     line-height: 1.6em;
+}
+.head_ico{
+    color: #140748;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ico1{
+    font-family: "Roboto", Sans-serif;
+    color: #666666;
+}
+.gridElements{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 165px;
+    padding-top: 140px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+.icon{
+    padding-left: 20px;
+}
+.icon div{
+    padding-top: 20px;
+    text-align: center;
+}
+.divider1{
+    border-right: 1px solid lightgrey;
+    height: 90%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.divider2{
+    border-right: 1px solid lightgrey;
+    height: 90%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.imageDisplay {
+    display: flex;
+    column-gap: 25px;
+    padding-left: 150px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+.blue{
+    height: 400px;
+    background-color: rgb(18, 6, 73);
+    margin-top: -275px;
+}
+.bluet1{
+    color: white;
+    font-size: 45px;
+    padding-left: 150px;
+    font-family: "Bebas Neue";
+    padding-bottom: 25px;
+    padding-top: 100px;
+}
+.bluet2{
+    color: white;
+    font-size: 22px;
+    padding-left: 150px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 250;
+}
+.suppImg{
+    padding-top: 90px;
+    padding-right: 180px;
+}
+.imgAbout{
+    margin-top: -725px;
+}
+.aboutt1{
+    padding-left: 670px;
+    padding-top: 120px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 35px;
+    color: #140748;
+}
+.dum_txt{
+    color: #666666;
+    font-family: "Roboto", Sans-serif;
+    padding-left: 670px;
+    line-height: 1.6em;
+}
+
+#bookmark {
+    padding-left: 660px;
+    font-family: "Bebas Neue";
+    padding-top: 6px;
+}
+
+#bookmark h3 {
+    padding-top: 4px;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+#bookmark a {
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+    font-weight: 480;
+    font-family: "Roboto", Sans-serif;
+    background-color: #140748;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+#contact_btn{
+    padding-left: 8px;
+}
+#mainList{
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
 }
