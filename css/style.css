@@ -151,7 +151,11 @@ body{
     padding-right: 150px;
 }
 .imgAbout{
+    opacity: 80%;
     margin-top: -698px;
+    background-color: black;
+    background-image:radial-gradient(circle at center,transparent 70%,black 100%);
+    background-blend-mode: multiply;
 }
 .aboutt1{
     padding-left: 670px;
@@ -159,6 +163,7 @@ body{
     font-family: "Bebas Neue", Sans-serif;
     font-size: 35px;
     color: rgb(223, 194, 35);
+    text-decoration: underline;
 }
 .dum_txt{
     color: white;
@@ -204,4 +209,31 @@ body{
 ul {
     list-style-type: none;
     list-style-image: url("../images/mark.png");
+}
+.work1{
+    background-color: black;
+    background-size: cover
+
+
+}
+#works{
+    text-align: center;
+    padding-top: 240px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 35px;
+    color: rgb(223, 194, 35);
+    padding-bottom: 240px;
+    text-decoration: underline;
+}
+#worktitle{
+    padding-left: 380px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 35px;
+    color: white;
+    text-decoration: underline;
+}
+#imgWork1{
+    padding-left: 900px;
+    margin: -150px;
+    padding-bottom: 400px;
 }
