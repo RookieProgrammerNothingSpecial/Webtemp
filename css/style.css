@@ -152,7 +152,7 @@ body{
 }
 .imgAbout{
     opacity: 80%;
-    margin-top: -698px;
+    margin-top: -835px;
     background-color: black;
     background-image:radial-gradient(circle at center,transparent 70%,black 100%);
     background-blend-mode: multiply;
@@ -161,19 +161,20 @@ body{
     padding-left: 670px;
     padding-top: 120px;
     font-family: "Bebas Neue", Sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(223, 194, 35);
     text-decoration: underline;
 }
 .dum_txt{
     color: white;
+    font-size: 20px;
     font-family: "Roboto", Sans-serif;
     padding-left: 670px;
     line-height: 1.6em;
 }
 .details{
     background-color: black;
-    margin: -30px;
+    margin: -35px;
 }
 #bookmark {
     padding-left: 660px;
@@ -185,16 +186,17 @@ body{
     padding-top: 4px;
     font-weight: lighter;
     font-size: larger;
+    font-size: 25px;
 }
 
 #bookmark a {
     padding-top: 10px;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 480;
     font-family: "Roboto", Sans-serif;
     background-color: rgb(223, 194, 35);
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
     color: white;
 }
@@ -212,28 +214,153 @@ ul {
 }
 .work1{
     background-color: black;
-    background-size: cover
-
-
+    background-size: cover;
+    margin-top: -60px;
+    color: white;
+    padding-bottom: 400px;
 }
 #works{
     text-align: center;
     padding-top: 240px;
     font-family: "Bebas Neue", Sans-serif;
-    font-size: 35px;
-    color: rgb(223, 194, 35);
+    font-size: 45px;
+    color: white;
     padding-bottom: 240px;
     text-decoration: underline;
 }
-#worktitle{
-    padding-left: 380px;
+#worktitle1{
+    padding-left: 240px;
+    padding-bottom: 20px;
     font-family: "Bebas Neue", Sans-serif;
     font-size: 35px;
-    color: white;
+    color: rgb(223, 194, 35);
     text-decoration: underline;
 }
+#worktitle1 a{
+    color: rgb(223, 194, 35);
+}
+#worktitle1 a:hover{
+    color: rgb(255, 115, 0);
+}
 #imgWork1{
-    padding-left: 900px;
-    margin: -150px;
-    padding-bottom: 400px;
+    margin-top: -600px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+#mainList1{
+    padding-bottom: 20px;
+    color: white;
+    padding-left: 230px;
+    font-family: "Bebas Neue", Sans-serif;
+    padding-top: 20px;
+    
+}
+#mainList1 h3{
+    font-size: 25px;
+}
+
+.textwork1{
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", Sans-serif;
+    padding-left: 240px;
+    line-height: 1.6em;
+}
+.work2{
+    background-color: black;
+    background-size: cover;
+    margin-top: -60px;
+    color: white;
+    padding-bottom: 300px;
+}
+#imgWork2{
+    margin-top: -640px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+#worktitle2{
+    text-align: right;
+    padding-right: 420px;
+    padding-bottom: 20px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 35px;
+    color: rgb(223, 194, 35);
+    text-decoration: underline;
+}
+#worktitle2 a{
+    color: rgb(223, 194, 35);
+}
+#worktitle2 a:hover{
+    color: rgb(255, 115, 0);
+}
+#mainList2{
+    padding-bottom: 20px;
+    color: white;
+    padding-left: 970px;
+    font-family: "Bebas Neue", Sans-serif;
+    padding-top: 20px;
+    
+}
+#mainList2 h3{
+    font-size: 25px;
+}
+.textwork2{
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", Sans-serif;
+    padding-right: 100px;
+    line-height: 1.6em;
+}
+.textwork3{
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", Sans-serif;
+    padding-left: 240px;
+    line-height: 1.6em;
+}
+#worktitle3{
+    padding-left: 240px;
+    padding-bottom: 20px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 35px;
+    color: rgb(223, 194, 35);
+    text-decoration: underline;
+}
+#worktitle3 a{
+    color: rgb(223, 194, 35);
+}
+#worktitle3 a:hover{
+    color: rgb(255, 115, 0);
+}
+#workyt1{
+    padding-left: 235px;
+}
+.ytPerform1{
+    padding-left: 290px;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 30px;
+    margin-top: -37px;
+}
+.ytPerform1 a{
+    text-decoration: none;
+    color: white;
+}
+.ytPerform1 a:hover{
+    color: rgb(255, 115, 0);
+}
+#workyt2{
+    padding-right: 490px;
+}
+.ytPerform2{
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.ytPerform2 a{
+    text-decoration: none;
+    color: white;
+}
+.ytPerform2 a:hover{
+    color: rgb(255, 115, 0);
 }
